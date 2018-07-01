@@ -7,10 +7,7 @@ var ItemList = {
    */
   loadList: function () {
     var savedItems = window.localStorage.getItem(ITEM_LIST);
-    this.items = savedItems ? JSON.parse(savedItems) : [
-      {id: 1, image:'data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO 9TXL0Y4OHwAAAABJRU5ErkJggg==',description:'lalala'},
-      {id: 2, image:'data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO 9TXL0Y4OHwAAAABJRU5ErkJggg==',description:'lalala'},
-    ];
+    this.items = savedItems ? JSON.parse(savedItems) : [];
   },
 
   /**

@@ -21,7 +21,7 @@ This is a requested exercise for a job interview.
 
 # Implementation
 
-The website () runs entirely on client side and uses Local Storage to retrieve and save the item list. Images are base64 encoded so they can be stored too. No backend code needed.
+The website (https://bysouleater.github.io/job-interview-exercise/) runs entirely on client side and uses Local Storage to retrieve and save the item list. Images are base64 encoded so they can be stored too. No backend code needed.
 
 ## Dependencies
 
